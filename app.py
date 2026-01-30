@@ -7,8 +7,10 @@ st.title("蔵書冊数別 図書館数の可視化")
 df = pd.read_csv(
     "FEH_00400004_260126233600.csv",
     encoding="utf-8-sig",
-    skiprows=2
+    engine="python",
+    on_bad_lines="skip"
 )
+
 
 # ② dfができてから列名を確認
 st.write("列名一覧:", df.columns)
