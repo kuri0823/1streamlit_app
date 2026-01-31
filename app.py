@@ -1,10 +1,6 @@
-import os
-import streamlit as st
 import pandas as pd
+import streamlit as st
 
-st.title("CSV確認")
-
-file_path = os.path.join(os.path.dirname(__file__), "data.csv")
-df = pd.read_csv(file_path)
+df = pd.read_csv("data(修正版).csv")
 
 st.dataframe(df)
