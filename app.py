@@ -64,3 +64,7 @@ st.pyplot(fig)
 
 
 st.caption("出典：e-Stat（政府統計）")
+
+
+import os
+st.write(os.listdir("."))
