@@ -11,3 +11,8 @@ statsmodels==0.14.1
 streamlit
 pandas
 matplotlib
+
+streamlit
+pandas
+matplotlib
+
